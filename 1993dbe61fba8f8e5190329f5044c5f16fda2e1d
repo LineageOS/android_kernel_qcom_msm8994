@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "001647ed_956c7eae",
+        "filename": "sound/core/timer.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 1956,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-09-18T12:59:22Z",
+      "side": 1,
+      "message": "You need to remove this as well",
+      "range": {
+        "startLine": 1956,
+        "startChar": 0,
+        "endLine": 1956,
+        "endChar": 34
+      },
+      "revId": "1993dbe61fba8f8e5190329f5044c5f16fda2e1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f237f7ed_67308ef6",
+        "filename": "sound/core/timer.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 1963,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-09-18T12:59:22Z",
+      "side": 1,
+      "message": "Same",
+      "range": {
+        "startLine": 1963,
+        "startChar": 0,
+        "endLine": 1963,
+        "endChar": 34
+      },
+      "revId": "1993dbe61fba8f8e5190329f5044c5f16fda2e1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
