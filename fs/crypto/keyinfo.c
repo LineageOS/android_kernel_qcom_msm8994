@@ -195,7 +195,7 @@ static void put_crypt_info(struct fscrypt_info *ci)
 
 static int derive_essiv_salt(const u8 *key, int keysize, u8 *salt)
 {
-	struct crypto_shash *tfm = READ_ONCE(essiv_hash_tfm);
+	struct crypto_shash *tfm = ACCESS_ONCE(essiv_hash_tfm);
 
 	/* init hash transform on demand */
 	if (unlikely(!tfm)) {
